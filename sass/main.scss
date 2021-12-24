@@ -1,0 +1,100 @@
+.subtitle{
+
+    margin-top: 19px;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}   
+
+.title{
+    color: white;
+}
+.mobile{
+    min-height: 864px;
+    padding: 48px 0 79px 0;
+    // background-color: rgba(243,247, 223,0.8);
+    background-color: black;
+   .row{
+        margin-top: 32px;
+    }
+    &_item{
+        width: 450px;
+        height: 350px;
+        margin: 0 auto;
+        border: 1px solid red;
+        margin-bottom: 19px;
+        padding: 92px;
+        position: relative;
+        border-radius: 4px;
+        &_1{
+            background: url(/img/car.jpg) center (center/cover) repeat no-repeat ;
+        }
+        &_2{
+            background: url(/img/car1.jpg) center (center/cover) repeat no-repeat;
+        }
+        &_3{
+            background: url(/img/car2.jpg) center (center/cover) repeat no-repeat;
+        }
+        &_4{
+            background: url(/img/cara4.jpg) center (center/cover) repeat no-repeat;
+        }
+        &_5{
+            background: url(/img/car5.jpg) center (center/cover) repeat no-repeat;
+        }
+        &_6{
+            background: url(/img/car6.jpg) center (center/cover) repeat no-repeat;
+        }
+        $main-color: #1eacc7;
+        $second-color: #ff5656;
+        &_subtitle{
+             color: #ffffff;
+            font-family: Roboto;
+             font-size: 24px;
+             font-weight: 400;
+             line-height: 31px;
+             text-align: center;
+             
+        }
+        &_plus{
+             position: absolute;
+             width: 40px;
+             height: 40px;
+             background-color: #ffffff;
+             bottom: 35px;
+             right: 45%;
+             border-radius: 50%;
+             cursor: pointer;
+             &::before{
+                 position: absolute;
+                 content: '';
+                 top: 50%;
+                 left: 25%;
+                 display: flex;
+                 width: 20px;
+                 height: 2px;
+                 background-color:$main-color ;
+                 transition: 0.5s all;
+             }
+             &::after{
+                 position: absolute;
+                 top: 50%;
+                 left: 25%;
+                 content: '';
+                 display: block;
+                 transform: rotate(90deg);
+                 width: 20px;
+                 height: 3px;
+                 background-color:$main-color ;
+                transition: 0.5s all;
+             }
+             &:hover{
+                 &::before, &::after{
+                     background-color:  $second-color ;
+                 }
+             }
+        }
+    } 
+    }
+    

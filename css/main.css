@@ -1,0 +1,124 @@
+/* line 1, ../../../../../Desktop/SASS/sass/main.scss */
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 11, ../../../../../Desktop/SASS/sass/main.scss */
+.title {
+  color: white;
+}
+
+/* line 14, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background-color: black;
+}
+
+/* line 19, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 22, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item {
+  width: 450px;
+  height: 350px;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin-bottom: 19px;
+  padding: 92px;
+  position: relative;
+  border-radius: 4px;
+}
+
+/* line 31, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_1 {
+  background: url(/img/car.jpg) center center/cover repeat no-repeat;
+}
+
+/* line 34, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_2 {
+  background: url(/img/car1.jpg) center center/cover repeat no-repeat;
+}
+
+/* line 37, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_3 {
+  background: url(/img/car2.jpg) center center/cover repeat no-repeat;
+}
+
+/* line 40, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_4 {
+  background: url(/img/cara4.jpg) center center/cover repeat no-repeat;
+}
+
+/* line 43, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_5 {
+  background: url(/img/car5.jpg) center center/cover repeat no-repeat;
+}
+
+/* line 46, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_6 {
+  background: url(/img/car6.jpg) center center/cover repeat no-repeat;
+}
+
+/* line 51, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+}
+
+/* line 60, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_plus {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  bottom: 35px;
+  right: 45%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* line 69, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_plus::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 25%;
+  display: flex;
+  width: 20px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.5s all;
+}
+
+/* line 80, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_plus::after {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  content: '';
+  display: block;
+  transform: rotate(90deg);
+  width: 20px;
+  height: 3px;
+  background-color: #1eacc7;
+  transition: 0.5s all;
+}
+
+/* line 93, ../../../../../Desktop/SASS/sass/main.scss */
+.mobile_item_plus:hover::before, .mobile_item_plus:hover::after {
+  background-color: #ff5656;
+}
+
+/*# sourceMappingURL=main.css.map */
